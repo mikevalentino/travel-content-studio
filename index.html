@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Content Studio</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d0f16;
+      --card: #151926;
+      --text: #f6f7fb;
+      --muted: #a9b0c3;
+      --cyan: #43e5f4;
+      --pink: #ff4fa3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 20%, rgba(67,229,244,.17), transparent 28rem),
+        radial-gradient(circle at 85% 15%, rgba(255,79,163,.16), transparent 28rem),
+        var(--bg);
+    }
+    main {
+      width: min(900px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 100px 0 60px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid rgba(67,229,244,.35);
+      border-radius: 999px;
+      color: var(--cyan);
+      font-size: 14px;
+    }
+    h1 {
+      max-width: 760px;
+      margin: 22px 0 18px;
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: .98;
+      letter-spacing: -3px;
+    }
+    .lead {
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    .card {
+      margin-top: 45px;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 20px;
+      background: rgba(21,25,38,.8);
+    }
+    h2 { margin-top: 0; }
+    ul {
+      color: var(--muted);
+      line-height: 1.8;
+      padding-left: 20px;
+    }
+    footer {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 42px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { color: var(--pink); }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="badge">LOCAL-FIRST CREATOR TOOL</span>
+    <h1>Travel Content Studio</h1>
+    <p class="lead">
+      Travel Content Studio helps creators turn their own travel footage into polished short-form videos, TikTok drafts, and creator-approved posts.
+    </p>
+
+```
+<section class="card">
+  <h2>How it works</h2>
+  <ul>
+    <li>Creators import and organize travel footage stored on their own devices.</li>
+    <li>The Studio helps identify strong clips, build short-form edits, and prepare captions and posting details.</li>
+    <li>Creators can optionally connect their own TikTok account to upload drafts or publish creator-approved content.</li>
+    <li>The Studio does not sell TikTok data or access unrelated accounts.</li>
+  </ul>
+</section>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</footer>
+```
+
+  </main>
+</body>
+</html>
